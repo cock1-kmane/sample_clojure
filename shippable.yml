@@ -6,10 +6,12 @@ lein:
 
 # Create directories for test and coverage reports
 before_script:
-  - mkdir -p shippable/testresults
-  - mkdir -p shippable/codecoverage
+  #- mkdir -p shippable/testresults
+  #- mkdir -p shippable/codecoverage
 
 # Running the test with Leiningen
 script:
   - cd sample
   - lein test2junit
+
+artifact: true
