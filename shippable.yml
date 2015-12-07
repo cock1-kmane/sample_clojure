@@ -12,7 +12,7 @@ before_script:
   - mkdir -p shippable/testresults
   - mkdir -p shippable/codecoverage
   
-before_install: shippable_retry npm install
+#before_install: shippable_retry npm install
 
 # Running the test with Leiningen
 script:
