@@ -18,8 +18,6 @@ build_image: drydock/u14clo:tip
 script:
   - cd sample
   - lein test2junit
-  
-cache: true
 
 notifications:
   email:
