@@ -13,13 +13,13 @@ before_script:
   - mkdir -p shippable/codecoverage
   
 #before_install: shippable_retry npm install
-build_image: drydock/u12clopls:tip
+build_image: drydock/u14clopls:tip
 # Running the test with Leiningen
 script:
   - cd sample
   - lein test2junit
   
-cache: true
+#cache: true
 
 notifications:
   email:
