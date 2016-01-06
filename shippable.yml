@@ -11,6 +11,7 @@ branches:
   except:
     - u14cloplstip
     - u14clotip
+    - master
 
   #only:
    # - stage
