@@ -23,4 +23,5 @@ notifications:
   email:
     varsha@shippable.com
   irc: "chat.freenode.nte#test-irc"
+  
 archive: true
