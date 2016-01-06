@@ -12,8 +12,13 @@ before_script:
   - mkdir -p shippable/testresults
   - mkdir -p shippable/codecoverage
   
+branches:
+ only:
+   - u14cloplstip
+   - u14clotip
+  
 #before_install: shippable_retry npm install
-build_image: drydock/u12clo:tip
+ 
 # Running the test with Leiningen
 script:
   - cd sample
