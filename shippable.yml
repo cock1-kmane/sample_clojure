@@ -6,16 +6,7 @@ env:
 
 lein:
   - lein2
-  
-branches:
-  except:
-    - u14cloplstip
-    - u14clotip
-    - master
 
-  #only:
-   # - stage
-    #- prod
 # Create directories for test and coverage reports
 before_script:
   - mkdir -p shippable/testresults
