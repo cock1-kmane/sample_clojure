@@ -9,8 +9,8 @@ lein:
   
 branches:
   except:
-    - u14clopls
-    - u14clo
+    - u14cloplstip
+    - u14clotip
 
   #only:
    # - stage
