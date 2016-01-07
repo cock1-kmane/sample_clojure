@@ -24,8 +24,6 @@ script:
   - cd sample
   - lein test2junit
   
-#cache: true
-
 notifications:
   email:
     varsha@shippable.com
