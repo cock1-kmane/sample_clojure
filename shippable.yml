@@ -12,10 +12,10 @@ before_script:
   - mkdir -p shippable/testresults
   - mkdir -p shippable/codecoverage
   
-branches:
- only:
-   - u14cloplstip
-   - u14clotip
+#branches:
+ #only:
+  # - u14cloplstip
+  #- u14clotip
   
 #before_install: shippable_retry npm install
  
