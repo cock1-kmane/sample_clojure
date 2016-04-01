@@ -1,8 +1,6 @@
 # Language setting
 language: clojure
 
-env: 
-  - secure: CAAv58eV9gzp3T4fk4OC7CUFUGqNOLcIvFm378e8UX42GJPUpta3GD0n0Nr3cEvon7kBP6kElzspY7EpGslPJCBjYax2TMiXefXqqTmXnM5QIzy1Z7Bb5tJmLkLRyUbqyQorDRyr7exrlQ18zxq2ONypiD53QtkcSjv49tKSKJ2zsNQFo00DjTewK2om6F7KqYm7tWBBpg6pxYfbu9zbJqsDKTuEtzE/C2grUH0dVTceDv5+nPih7wUV8b+6rzzlOMHLpsp6gKW/PYWp9UlFnv0ctRw75mgAkO9R3lJ8nwAM/GjNojnZ2RW+cTmi22IVPa41q9lv0E6J+kL+GcQePQ==
 
 lein:
   - lein2
@@ -21,7 +19,7 @@ script:
 
 notifications:
   email:
-    varsha@shippable.com
+    shiphitchcock1@shippable.com
   irc: "chat.freenode.nte#test-irc"
   
 archive: true
