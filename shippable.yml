@@ -30,3 +30,4 @@ notifications:
   irc: "chat.freenode.net#test-irc"
     
 archive: true 
+   
