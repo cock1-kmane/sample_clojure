@@ -23,6 +23,7 @@ before_script:
 script:
   - cd sample
   - lein test2junit
+  - ps cs
   
 notifications:
   email:
