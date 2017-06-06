@@ -23,6 +23,7 @@ before_script:
 script:
   - cd sample
   - lein test2junit
+  - sleep 8m
   
 notifications:
   email:
